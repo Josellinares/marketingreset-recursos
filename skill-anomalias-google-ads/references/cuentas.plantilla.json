@@ -1,0 +1,10 @@
+[
+ {"id": "cuenta-leads", "nombre": "Cuenta A · Leads", "customer_id": "<ID_GOOGLE_ADS_10_DIGITOS>",
+  "acceso": {"conexion": "<ID_CONEXION_COMPOSIO>"}, "ga4": "properties/<ID_PROPIEDAD_GA4>", "estado": "activa"},
+ {"id": "cuenta-tienda", "nombre": "Cuenta B · Tienda", "customer_id": "<ID_GOOGLE_ADS_10_DIGITOS>",
+  "acceso": {"login_customer_id": "<ID_MCC_10_DIGITOS>"}, "ga4": "properties/<ID_PROPIEDAD_GA4>", "estado": "activa"},
+ {"id": "cuenta-sin-ga4", "nombre": "Cuenta C · Solo Ads", "customer_id": "<ID_GOOGLE_ADS_10_DIGITOS>",
+  "acceso": {"conexion": "<ID_CONEXION_COMPOSIO>"}, "ga4": null, "estado": "activa"},
+ {"id": "cuenta-pendiente", "nombre": "Cuenta D · Pendiente", "customer_id": null, "acceso": {}, "ga4": null,
+  "estado": "pendiente", "nota": "Falta el ID de Google Ads"}
+]
